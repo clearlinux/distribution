@@ -4,6 +4,8 @@ about: Create a report to help us improve
 
 ---
 
+*Please omit irrelevant data and trim the bug report template to only those parts that make sense!*
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
