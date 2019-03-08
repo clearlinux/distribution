@@ -1,6 +1,7 @@
 ---
 name: Package version update request
 about: Suggest new versions for a package
+labels: new
 
 ---
 
