@@ -1,7 +1,7 @@
 ---
 name: Enhancement request
 about: Suggest an idea for this project, like a new package or feature
-labels: new
+labels: new, enhancement
 
 ---
 
