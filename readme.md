@@ -1,5 +1,5 @@
 
-## Clear Linux Distribution Project
+## Clear Linux* OS Distribution Project
 
 This project is currently only used to track generic non-package
 specific issues.  We may close issues that are upstream package issues
