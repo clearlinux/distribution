@@ -1,6 +1,6 @@
 
 
-## Clear Linux* OS - Software Contribution Guide
+## Clear Linux OS - Software Contribution Guide
 
 Clear Linux OS is composed of many different open source software projects and welcomes all contributors to improve the project.
 
