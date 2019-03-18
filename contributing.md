@@ -104,7 +104,7 @@ Please submit any issues in upstream packages to their respective projects.
 Bugs or issues related to Clear Linux Distribution may be submitted here: https://github.com/clearlinux/distribution/issues 
 
 
-## Reporting Security 
+## Reporting Security Concerns
 
 Visit https://01.org/security for best practices on reporting security issues.
 
