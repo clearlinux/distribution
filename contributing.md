@@ -6,7 +6,7 @@ Clear Linux OS is composed of many different open source software projects and w
 
 Before contributing, please review and abide by the [Code of Conduct](https://01.org/blogs/2018/intel-covenant-code).
 
-Ensure any contributions align with Clear Linux philosophies on [stateless](https://clearlinux.org/features/stateless) and [security](https://clearlinux.org/documentation/clear-linux/concepts/security).
+Ensure any contributions align with Clear Linux philosophies on [stateless](https://clearlinux.org/features/stateless) and [security](https://docs.01.org/clearlinux/latest/guides/clear/security.html).
 
 ### Contributing to an existing software package
 
