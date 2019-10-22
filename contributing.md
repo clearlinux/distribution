@@ -4,9 +4,16 @@
 
 Clear Linux OS is composed of many different open source software projects and welcomes all contributors to improve the project.
 
-Before contributing, please review and abide by the [Code of Conduct](https://01.org/blogs/2018/intel-covenant-code).
+Before contributing, please review and abide by the [Code of Conduct](https://01.org/blogs/2018/intel-covenant-code). Ensure any contributions align with Clear Linux philosophies on [stateless](https://clearlinux.org/features/stateless) and [security](https://docs.01.org/clearlinux/latest/guides/clear/security.html).
 
-Ensure any contributions align with Clear Linux philosophies on [stateless](https://clearlinux.org/features/stateless) and [security](https://docs.01.org/clearlinux/latest/guides/clear/security.html).
+- [Contributing software](#contributing-software)
+  * [Contributing to an existing software package](#contributing-to-an-existing-software-package)
+  * [Contributing a new software package](#contributing-a-new-software-package)
+  * [Contributing to Clear Linux development tooling](#contributing-to-clear-linux-development-tooling)
+- [Patching source code](#patching-source-code)
+- [Reporting bugs and security concerns](#reporting-bugs-and-security-concerns)
+
+## Contributing software
 
 ### Contributing to an existing software package
 
@@ -98,13 +105,10 @@ See the links below for more information on how `quilt` can be used:
 - https://wiki.debian.org/UsingQuilt 
 
 
-## Reporting Bugs
+## Reporting bugs and security concerns
 
 Please submit any issues in upstream packages to their respective projects.
 Bugs or issues related to Clear Linux Distribution may be submitted here: https://github.com/clearlinux/distribution/issues 
-
-
-## Reporting Security Concerns
 
 Visit https://01.org/security for best practices on reporting security issues.
 
