@@ -9,10 +9,10 @@ assignees: ''
 
 Official package name:
 
-License (OSI approved and Open Source):
+License (must be an OSI approved Open Source license):
 
 Download URL of latest release:
 
-Latest release date:
+Latest release date (must be :
 
 Description:
