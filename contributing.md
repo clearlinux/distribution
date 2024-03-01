@@ -32,14 +32,14 @@ If required, separately submit changes to a package's autospec configuration bef
 
  3. Modify the [autospec control files](https://github.com/clearlinux/autospec#control-files) to change compilation and packaging settings. 
  4. Create one or more patch files from the package's autospec directory using `git-format-patch` (see the [patching source code](#patching-source-code) section)
- 5.  Email the patches for consideration to [dev@lists.clearlinux.org](mailto:dev@lists.clearlinux.org). 
+ 5.  Submit patches through [Clear Linux Distribution issues on GitHub](https://github.com/clearlinux/distribution/issues)
 
 
 #### Change the source code
  6. Modify the source code (see the [patching source code](#patching-source-code) section). 
  7. Run `make autospec` to regenerate the `.spec`file and build RPMs.
  8. Test the newly packaged software on a Clear Linux OS system.
- 10. Email only the source code patch files for consideration to [dev@lists.clearlinux.org](mailto:dev@lists.clearlinux.org). Be sure to include the package name in the email subject and body.
+ 10. Submit patches through [Clear Linux Distribution issues on GitHub](https://github.com/clearlinux/distribution/issues). Be sure to include the package name in the issue subject and body.
 
 If accepted, the Clear Linux team will update the package in Clear Linux OS and make the patches available at: https://github.com/clearlinux-pkgs 
 
@@ -52,7 +52,7 @@ Make sure the licensing of the package you want to include allows Clear Linux to
  2. Generate an autospec directory for the software package using the [autospec](https://clearlinux.org/documentation/clear-linux/guides/maintenance/autospec#example-2-build-a-new-rpm) tooling on Clear Linux.
  3. Create a new git repository in the folder containing the autospec package workspace.
  4. Create a single patch file using [`git-format-patch`](https://git-scm.com/docs/git-format-patch).[1]
- 5. Email the patch that adds the suggested package for consideration to [dev@lists.clearlinux.org](mailto:dev@lists.clearlinux.org).
+ 5. Submit the patch through [Clear Linux Distribution issues on GitHub](https://github.com/clearlinux/distribution/issues).
  6. Include suggestions for which bundle(s) the package should be added to and any ideas for tests that would be relevant.
 
 If accepted, the Clear Linux team will add the package to Clear Linux OS and make the repository available at: https://github.com/clearlinux-pkgs 
@@ -110,7 +110,7 @@ See the links below for more information on how `quilt` can be used:
 Please submit any issues in upstream packages to their respective projects.
 Bugs or issues related to Clear Linux Distribution may be submitted here: https://github.com/clearlinux/distribution/issues 
 
-Visit https://01.org/security for best practices on reporting security issues.
+Visit [Intel's Security Portal](https://www.intel.com/content/www/us/en/security-center/default.html) for best practices on reporting security issues.
 
 
 
