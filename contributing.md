@@ -21,11 +21,11 @@ Before you start, consider if it would be better to contribute upstream.
 Clear Linux will benefit from improvements to upstream software just
 like everyone else. 
 
-Note: for the Linux kernel package specifically, please see the [kernel development](https://clearlinux.org/documentation/clear-linux/guides/maintenance/kernel-development) documentation.
+Note: for the Linux kernel package specifically, please see the [kernel development](https://www.clearlinux.org/clear-linux-documentation/guides/kernel/kernel-development.html) documentation.
 
 #### Clone the package repository 
- 1. [Setup a development environment on a Clear Linux OS system](https://clearlinux.org/documentation/clear-linux/guides/maintenance/autospec#setup-environment-to-build-source).
- 2. Identify and clone the repository corresponding to the software package by running `make clone_<PACKAGENAME>`. This will clone the repsoitory from https://github.com/clearlinux-pkgs which contain existing files and directories created by the [autospec](https://clearlinux.org/documentation/clear-linux/concepts/autospec-about) tooling.
+ 1. [Setup a development environment on a Clear Linux OS system](https://www.clearlinux.org/clear-linux-documentation/guides/clear/autospec.html#setup-environment-to-build-source).
+ 2. Identify and clone the repository corresponding to the software package by running `make clone_<PACKAGENAME>`. This will clone the repsoitory from https://github.com/clearlinux-pkgs which contain existing files and directories created by the [autospec](https://www.clearlinux.org/clear-linux-documentation/guides/clear/autospec.html#id4) tooling.
  
 #### Change compilation and packaging settings
 If required, separately submit changes to a package's autospec configuration before submitting any source code changes so the Clear Linux release pipeline gets updated as expected.
@@ -48,8 +48,8 @@ If accepted, the Clear Linux team will update the package in Clear Linux OS and 
 
 Make sure the licensing of the package you want to include allows Clear Linux to package and distribute it. Licensing should use a common identifier and format as found at https://spdx.org/licenses/ and ideally be a permissive license. 
 
- 1. [Setup a development environment on a Clear Linux OS system](https://clearlinux.org/documentation/clear-linux/guides/maintenance/autospec#setup-environment-to-build-source).
- 2. Generate an autospec directory for the software package using the [autospec](https://clearlinux.org/documentation/clear-linux/guides/maintenance/autospec#example-2-build-a-new-rpm) tooling on Clear Linux.
+ 1. [Setup a development environment on a Clear Linux OS system](https://www.clearlinux.org/clear-linux-documentation/guides/clear/autospec.html#setup-environment-to-build-source).
+ 2. Generate an autospec directory for the software package using the [autospec](https://www.clearlinux.org/clear-linux-documentation/guides/clear/autospec.html#id13) tooling on Clear Linux.
  3. Create a new git repository in the folder containing the autospec package workspace.
  4. Create a single patch file using [`git-format-patch`](https://git-scm.com/docs/git-format-patch).[1]
  5. Submit the patch through [Clear Linux Distribution issues on GitHub](https://github.com/clearlinux/distribution/issues).
